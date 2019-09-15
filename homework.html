@@ -14,15 +14,17 @@
 
 <body>
     <header class="header">
-        <h1 class="ediya_logo"><a href="#"><img src="./images/ediya-logo.gif" alt="eidya coffee"></a></h1>
+        <h1 class="ediya-logo"><a href="#"><img src="./images/ediya-logo.gif" alt="eidya coffee"></a></h1>
 
         <nav class="nav_button">
-            <h2 class="main_button">전체 메뉴</h2>
-            <button>메뉴버튼</button>
-            <div class="nav_close">
-                <img src="./images/detail-close.gif" alt="">
-            </div>
+
+            <h2 class="a11y-hidden">전체 메뉴</h2>
+            <button class="navigation-button"><img src="./images/navigation-button.gif" alt=""></button>
+
+            
+
             <ul class="menu_list">
+                    <button class="close-button"><img src="./images/detail-close.gif" alt=""></button>
 
                 <li><a href="#">메뉴</a></li>
                 <li><a href="#">이디야멤버스</a></li>
@@ -42,10 +44,16 @@
                         <img src="./images/iced-cherry-blossoms-latte.png" alt="iced Cherry Blossom Latte">
                         <figcaption>ICED벚꽃라떼</figcaption>
                         <details class="beveage_info">
-                            <h3 class="iced_blossom">ICED벚꽃라떼</h3>
-                            <span>Cherry Blossom Latte</span>
-                            <p>은은한 벚꽃향과 라즈베리 화이트 초콜릿 토핑이 올라간 핑크빛 라떼</p>
+                            
+                            <summary></summary>
+
+                            <dl class="item_info_brief">
+                                <dt class="item-name-ko"></dt>
+                                <dt class="item-name-en"></dt>
+                                <dd class="item-desc">은은한 벚꽃향과 라즈베리 블략 초콜릿 토핑이 올라간 핑크빛 라떼</dd>
+                            </dl>
                             <ul class="beveage_detail">
+
                                 <li>칼로리 393kcal</li>
                                 <li>당류 35g</li>
                                 <li>단백질 7g</li>
